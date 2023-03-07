@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+figure > img{
+    width: 100%;
+}
+ 
+body{
+    background-color: rgb(145, 142, 142);
+}
+
+header{
+    padding: 1%;
+}
+
+header h1{
+    text-transform: uppercase;
+    
+}
+
+hr{
+    border-color: black;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section > figure{
+    flex: 1;
+    margin: 1%;
+    min-width: 205px;
+   
+}
+
+section > figure > figcaption{
+   text-align: center;
+   font-style: italic;
+   font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2%;
+    padding: 2%;
+    border: dashed 3px ;
+}
+
+footer img {
+    width: 50px;
+    padding: 1%;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer p {
+    padding: 0.3%;
+}
