@@ -33,7 +33,7 @@ section > figure{
     flex: 1;
     margin: 1%;
     min-width: 205px;
-   
+    text-align: center;
 }
 
 section > figure > figcaption{
