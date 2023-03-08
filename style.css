@@ -18,20 +18,20 @@ div {
     flex: 1;
 }
 
-.flex-container {
+.top {
     display: flex;
-    flex-wrap: wrap;
+}
+
+.flex-container {
+    display: inline-flex ;
+   
 }
 
 .flex-container>div {
     flex: 1;
-    min-width: 200px;
+   
 }
 
-.flex-container>div:nth-of-type(2) {
-    flex: 2;
-    min-width: 200px;
-}
 
 
 section {
