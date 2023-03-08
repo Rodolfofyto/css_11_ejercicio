@@ -7,50 +7,52 @@ figure>img {
     width: 100%;
 }
 
-body {
-    background-color: antiquewhite;
+header, figure, h1, form, nav, main, section, article, table {
+    border: solid 1px rgb(4, 4, 4);
 }
 
-div {
-    border: dashed 3px red;
-    margin: 2%;
-    padding: 2%;
-    flex: 1;
+figure{
+    width: 20%;
 }
 
-.top {
+/*estilos del Header*/
+
+header{
     display: flex;
-}
-
-.flex-container {
-    display: inline-flex ;
-   
-}
-
-.flex-container>div {
-    flex: 1;
-   
+    margin: 1%;
+    justify-content: space-between;
 }
 
 
 
-section {
-    border: dashed 3px red;
-    margin: 2%;
+
+
+
+
+
+
+
+
+
+
+
+/* estilos del footer*/
+footer {
+    text-align: center;
+    margin-top: 2%;
     padding: 2%;
+    border: dashed 3px ;
 }
 
-.principal {
-    display: flex;
-    flex-wrap: wrap;
+footer img {
+    width: 50px;
+    padding: 1%;
 }
 
-.principal>figure {
-    flex: 1;
-
+footer a {
+    text-decoration: none;
 }
 
-figure {
-    min-width: 200px;
-    max-width: 300px;
+footer p {
+    padding: 0.3%;
 }
