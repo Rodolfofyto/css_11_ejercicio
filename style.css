@@ -7,17 +7,23 @@ figure>img {
     width: 100%;
 }
 
-header, form, nav, main, section, table, li {
+header,
+form,
+nav,
+main,
+section,
+table,
+li {
     border: solid 1px rgb(4, 4, 4);
 }
 
-figure{
+figure {
     width: 20%;
 }
 
 /*estilos del Header*/
 
-header{
+header {
     display: flex;
     margin: 1%;
     justify-content: space-between;
@@ -25,44 +31,44 @@ header{
     padding: 1%;
 }
 
-header figure{
+header figure {}
 
-}
-header h1{
+header h1 {
     font-size: 5em;
 }
-header form{
+
+header form {
     padding: 1%;
 }
 
 /*estilos del Nav*/
 
-nav{
+nav {
     padding: 1%;
     margin: 1%;
 }
 
-nav ul{
+nav ul {
     display: flex;
-    width: 30%;
-
-}
-nav ul li{
     flex: 1;
+    justify-content: end;
+}
+
+nav ul li {
     list-style: none;
     padding: 1%;
     margin: 1%;
     text-transform: uppercase;
+    width: 10%;
 }
-ul > li{
-    width: 100%;
-}
+
 
 /*estilos del main article*/
 
 main {
     margin: 1%;
 }
+
 main article {
     padding: 1%;
 }
@@ -74,6 +80,46 @@ main article p {
 
 /*estilos del main section*/
 
+.principal {
+    display: flex;
+}
+
+.detalles {
+    flex: 1;
+}
+
+.detalles h3 {
+    margin: 1% 0 3% 0;
+}
+
+.coches {
+    display: flex;
+}
+
+.coches figure {
+    flex: 1;
+}
+
+.modelos {
+    flex: 1;
+   
+    
+}
+.modelos h3 {
+    margin: 1% 1% 3% ;
+}
+
+.modelos table{
+  
+}
+
+
+
+/*estilos galeria*/
+
+.galeria{
+    display: flex;
+}
 
 
 
@@ -89,7 +135,7 @@ footer {
     text-align: center;
     margin-top: 2%;
     padding: 2%;
-    border: dashed 3px ;
+    border: dashed 3px;
 }
 
 footer img {
