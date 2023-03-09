@@ -115,38 +115,40 @@ main article p {
 }
 
 .main-article-section2 {
-    flex: 1; 
+    flex: 1;
     justify-content: flex-end;
     min-width: 500px;
 }
 
 .main-article-section2 h3 {
-    margin: 1% 10% 3% ;
+    margin: 1% 10% 3%;
 }
 
-.main-article-section2 table{   
+.main-article-section2 table {
     margin-left: 10%;
     margin-bottom: 5%;
 }
 
-table > th, td, tr{
+table>th,
+td,
+tr {
     width: 20%;
     padding: 2%;
     text-align: left;
- }
+}
 
- table th{
+table th {
     background-color: lightgray;
- }
+}
 
 /*estilos galeria*/
 
-.galeria{
+.galeria {
     display: flex;
     flex-wrap: wrap;
 }
 
-.galeria figure{
+.galeria figure {
     flex: 1;
     margin: 1%;
     min-width: 140px;
