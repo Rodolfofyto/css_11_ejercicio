@@ -13,13 +13,11 @@ nav,
 main,
 section,
 table,
+figure,
 li {
     border: solid 1px rgb(4, 4, 4);
 }
 
-figure {
-    width: 20%;
-}
 
 /*estilos del Header*/
 
@@ -29,16 +27,25 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1%;
+    flex-wrap: wrap;
 }
 
-header figure {}
+header figure {
+    flex: 1;
+    min-width: 250px;
+}
 
 header h1 {
-    font-size: 5em;
+    flex: 2;
+    font-size: 5vw;
+    text-align: center;
+    min-width: 200px;
 }
 
 header form {
     padding: 1%;
+    flex: 1;
+    text-align: center;
 }
 
 /*estilos del Nav*/
@@ -59,7 +66,7 @@ nav ul li {
     padding: 1%;
     margin: 1%;
     text-transform: uppercase;
-    width: 10%;
+    min-width: 2%;
 }
 
 
@@ -80,59 +87,74 @@ main article p {
 
 /*estilos del main section*/
 
-.principal {
+.main-article {
     display: flex;
+    flex-wrap: wrap;
+
 }
 
-.detalles {
+.main-article-section1 {
     flex: 1;
+    min-width: 500px;
 }
 
-.detalles h3 {
+.main-article-section1 h3 {
     margin: 1% 0 3% 0;
 }
 
-.coches {
+.main-article-section1 p {
+    margin-right: 1%;
+}
+
+.main-article-galery {
     display: flex;
 }
 
-.coches figure {
+.main-article-galery figure {
     flex: 1;
 }
 
-.modelos {
-    flex: 1;
-   
-    
-}
-.modelos h3 {
-    margin: 1% 1% 3% ;
+.main-article-section2 {
+    flex: 1; 
+    justify-content: flex-end;
+    min-width: 500px;
 }
 
-.modelos table{
-  
+.main-article-section2 h3 {
+    margin: 1% 10% 3% ;
 }
 
+.main-article-section2 table{   
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
 
+table > th, td, tr{
+    width: 20%;
+    padding: 2%;
+    text-align: left;
+ }
+
+ table th{
+    background-color: lightgray;
+ }
 
 /*estilos galeria*/
 
 .galeria{
     display: flex;
+    flex-wrap: wrap;
 }
 
-
-
-
-
-
-
-
-
+.galeria figure{
+    flex: 1;
+    margin: 1%;
+    min-width: 140px;
+}
 
 /* estilos del footer*/
 footer {
-    text-align: center;
+    text-align: end;
     margin-top: 2%;
     padding: 2%;
     border: dashed 3px;
