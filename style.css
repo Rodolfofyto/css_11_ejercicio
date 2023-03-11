@@ -37,9 +37,10 @@ header figure {
 
 header h1 {
     flex: 2;
-    font-size: 5vw;
+    font-size: 3vw;
     text-align: center;
     min-width: 200px;
+    font-family:'Fredoka One', cursive;
 }
 
 header form {
