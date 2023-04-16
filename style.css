@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+body{
+   
+}
+
+
 figure>img {
     width: 100%;
 }
@@ -28,6 +33,7 @@ header {
     align-items: center;
     padding: 1%;
     flex-wrap: wrap;
+
 }
 
 header figure {
@@ -41,6 +47,8 @@ header h1 {
     text-align: center;
     min-width: 200px;
     font-family:'Fredoka One', cursive;
+    color: rgb(2, 84, 2);
+    
 }
 
 header form {
@@ -113,6 +121,8 @@ main article p {
 
 .main-article-galery figure {
     flex: 1;
+    padding: 0.2%;
+    border: none;
 }
 
 .main-article-section2 {
