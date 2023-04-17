@@ -3,8 +3,8 @@
     padding: 0;
 }
 
-body{
-   
+body {
+    background-color: antiquewhite;
 }
 
 
@@ -12,28 +12,16 @@ figure>img {
     width: 100%;
 }
 
-header,
-form,
-nav,
-main,
-section,
-table,
-figure,
-li {
-    border: solid 1px rgb(4, 4, 4);
-}
-
-
 /*estilos del Header*/
 
 header {
     display: flex;
-    margin: 1%;
     justify-content: space-between;
     align-items: center;
     padding: 1%;
+    width: 100%;
     flex-wrap: wrap;
-
+    background-color: rgb(213, 223, 180);
 }
 
 header figure {
@@ -46,15 +34,37 @@ header h1 {
     font-size: 3vw;
     text-align: center;
     min-width: 200px;
-    font-family:'Fredoka One', cursive;
+    font-family: 'Fredoka One', cursive;
     color: rgb(2, 84, 2);
-    
+
 }
 
 header form {
     padding: 1%;
     flex: 1;
     text-align: center;
+}
+
+label {
+    display: inline-block;
+    width: 70px;
+    padding: 2%;
+    text-align: left;
+}
+
+input {
+    display: inline-block;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+button {
+    padding: 1% 2%;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+
 }
 
 /*estilos del Nav*/
@@ -76,14 +86,17 @@ nav ul li {
     margin: 1%;
     text-transform: uppercase;
     min-width: 2%;
+    font-weight: bold;
+}
+
+nav ul li:hover {
+    background-color: #3ba330;
+    cursor: pointer;
+    color: #ffffff;
 }
 
 
 /*estilos del main article*/
-
-main {
-    margin: 1%;
-}
 
 main article {
     padding: 1%;
@@ -140,6 +153,16 @@ main article p {
     margin-bottom: 5%;
 }
 
+table{
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+h3{
+    font-size: 1.5em;
+    color: #126a08;
+}
+
 table>th,
 td,
 tr {
@@ -158,6 +181,7 @@ table th {
     margin-top: 1%;
     display: flex;
     flex-wrap: wrap;
+    background-color: #ffffff;
 }
 
 .galeria figure {
@@ -169,9 +193,8 @@ table th {
 /* estilos del footer*/
 footer {
     text-align: end;
-    margin: 1%;
     padding: 2%;
-    border: dashed 3px;
+    background-color: rgb(213, 223, 180);
 }
 
 footer img {
